@@ -38,7 +38,9 @@ sudo apt-get install jenkins
   Update your local package index, then finally install Jenkins:
   
   sudo apt-get update
-  sudo apt-get install jenkins 
+  sudo apt-get install jenkins
+  
+  Full Instructions at: https://pkg.jenkins.io/debian/
 
 ```
  
