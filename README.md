@@ -27,6 +27,18 @@ sudo apt-get update
 
 sudo apt-get install jenkins
 
+*** NEW UPDATED INSTALLATION INSTRUCTIONS ***
+
+  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+  
+  Then add the following entry in your /etc/apt/sources.list:
+  
+  deb https://pkg.jenkins.io/debian binary/
+  
+  Update your local package index, then finally install Jenkins:
+  
+  sudo apt-get update
+  sudo apt-get install jenkins 
 
 ```
  
