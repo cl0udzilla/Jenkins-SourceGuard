@@ -40,6 +40,10 @@ sudo apt-get install jenkins
   sudo apt-get update
   sudo apt-get install jenkins
   
+ If you have jenkins running in a VM, make sure you install the package 'git-core' or 'git':
+
+sudo yum install git
+  
   Full Instructions at: https://pkg.jenkins.io/debian/
 
 ```
